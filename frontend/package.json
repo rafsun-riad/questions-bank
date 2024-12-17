@@ -11,8 +11,12 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxt/image": "^1.8.1",
     "@nuxt/ui": "^2.20.0",
     "nuxt": "^3.14.1592",
     "vue": "latest"
+  },
+  "dependencies": {
+    "@nuxt/fonts": "^0.10.3"
   }
 }

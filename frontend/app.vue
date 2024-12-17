@@ -1,13 +1,21 @@
 <template>
-  <UContainer>
-    <UCard class="mt-10">
-      <template #header>
-        <div class="flex justify-between">
-          <h1>Welcome to Nuxt UI Starter</h1>
-          <ColorScheme><USelect v-model="$colorMode.preference" :options="['system', 'light', 'dark']" /></ColorScheme>
-        </div>
-      </template>
-      <UButton icon="i-heroicons-book-open" to="https://ui.nuxt.com" target="_blank">Open Nuxt UI Documentation</UButton>
-    </UCard>
-  </UContainer>
+  <div class="w-full h-screen">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>
+
+<script setup>
+useHead({
+  title: 'Questions Bank',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'This website is for saving questions and printing them as needed.',
+    },
+  ],
+  link: [{ rel: 'icon', type: 'image/x-icon', href: '/qb-logo.png' }],
+});
+</script>
