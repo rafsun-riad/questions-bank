@@ -19,6 +19,7 @@
             size="xl"
           />
         </UFormGroup>
+        <UDivider />
         <UButton size="xl" color="green" block>Login</UButton>
       </div>
     </div>
