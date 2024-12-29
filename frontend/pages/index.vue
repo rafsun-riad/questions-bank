@@ -1,5 +1,5 @@
 <template>
-  <UContainer class="w-full h-full flex items-center justify-center">
+  <UContainer class="w-full h-full flex items-center justify-center my-48">
     <div class="max-w-md w-full p-4 bg-green-50 shadow-md rounded-md">
       <h2 class="text-center font-semibold text-2xl my-5">
         Admin / Teacher Login

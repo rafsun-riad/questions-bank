@@ -1,7 +1,7 @@
 <template>
   <PublicHeader />
   <PublicSection>
-    <div class="flex w-full h-full">
+    <div class="flex w-full h-[90vh]">
       <div class="h-full w-2/12 bg-gray-200 pt-5 p-2">
         <UAccordion :items="items" color="gray" variant="ghost" size="xl">
           <template #admin>
@@ -55,66 +55,66 @@
 <script setup>
 const adminLinks = [
   {
-    label: 'Department Admin List',
-    icon: 'i-ic-round-format-list-bulleted',
-    to: '/department/admin-list',
+    label: "Department Admin List",
+    icon: "i-ic-round-format-list-bulleted",
+    to: "/department/admin-list",
   },
   {
-    label: 'Add Department Admin',
-    icon: 'i-material-symbols-add-circle-outline-rounded',
-    to: '/department/admin-add',
+    label: "Add Department Admin",
+    icon: "i-material-symbols-add-circle-outline-rounded",
+    to: "/department/admin-add",
   },
 ];
 
 const departmentLinks = [
   {
-    label: 'Department List',
-    icon: 'i-ic-round-format-list-bulleted',
-    to: '/department/list',
+    label: "Department List",
+    icon: "i-ic-round-format-list-bulleted",
+    to: "/department/list",
   },
   {
-    label: 'Add Department',
-    icon: 'i-material-symbols-add-circle-outline-rounded',
-    to: '/department/add',
+    label: "Add Department",
+    icon: "i-material-symbols-add-circle-outline-rounded",
+    to: "/department/add",
   },
 ];
 
 const userLinks = [
   {
-    label: 'User List',
-    icon: 'i-ci-users',
-    to: '/department/list',
+    label: "User List",
+    icon: "i-ci-users",
+    to: "/user-list",
   },
 ];
 
 const profileLinks = [
   {
-    label: 'Change Password',
-    icon: 'i-arcticons-passwordgenerator',
-    to: '/profile',
+    label: "Change Password",
+    icon: "i-arcticons-passwordgenerator",
+    to: "/profile",
   },
 ];
 
 const items = [
   {
-    label: 'Admin',
-    icon: 'i-eos-icons-admin-outlined',
-    slot: 'admin',
+    label: "Admin",
+    icon: "i-eos-icons-admin-outlined",
+    slot: "admin",
   },
   {
-    label: 'Department',
-    icon: 'i-streamline-quality-education',
-    slot: 'department',
+    label: "Department",
+    icon: "i-streamline-quality-education",
+    slot: "department",
   },
   {
-    label: 'User',
-    icon: 'i-ci-users-group',
-    slot: 'user',
+    label: "User",
+    icon: "i-ci-users-group",
+    slot: "user",
   },
   {
-    label: 'Profile',
-    icon: 'i-mdi-account-circle-outline',
-    slot: 'profile',
+    label: "Profile",
+    icon: "i-mdi-account-circle-outline",
+    slot: "profile",
   },
 ];
 </script>

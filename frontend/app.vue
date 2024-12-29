@@ -1,21 +1,19 @@
 <template>
-  <div class="w-full h-screen">
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
 
 <script setup>
 useHead({
-  title: 'Questions Bank',
+  title: "Questions Bank",
   meta: [
     {
-      name: 'description',
+      name: "description",
       content:
-        'This website is for saving questions and printing them as needed.',
+        "This website is for saving questions and printing them as needed.",
     },
   ],
-  link: [{ rel: 'icon', type: 'image/x-icon', href: '/qb-logo.png' }],
+  link: [{ rel: "icon", type: "image/x-icon", href: "/qb-logo.png" }],
 });
 </script>
